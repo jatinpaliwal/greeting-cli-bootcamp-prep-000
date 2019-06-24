@@ -2,6 +2,6 @@
 def greeting(name)
   #name=name.delete(' ')
   #name=name.delete('\t')
-  name.gsub(/\t\s+/, " ")
+  name = name.gsub( /\s+/, " " )
   puts "Hello #{name}. It's nice to meet you."
 end
